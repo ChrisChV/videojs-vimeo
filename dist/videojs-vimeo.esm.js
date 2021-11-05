@@ -206,6 +206,10 @@ class Vimeo extends Tech {
     return 1;
   }
 
+  readyState() {
+    return 2; //HAVE_CURRENT_DATA
+  }
+
 }
 
 Vimeo.prototype.featuresTimeupdateEvents = true;
